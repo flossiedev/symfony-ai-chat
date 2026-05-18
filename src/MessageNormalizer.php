@@ -129,7 +129,7 @@ final class MessageNormalizer implements NormalizerInterface, DenormalizerInterf
                         Text::class => $content->getText(),
                         File::class,
                         Document::class,
-                        Image::class,
+                        Image::class => $content->asDataUrl(),
                         Audio::class => $content->asBase64(),
                         ImageUrl::class,
                         DocumentUrl::class => $content->getUrl(),
