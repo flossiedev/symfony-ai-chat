@@ -1,5 +1,5 @@
 {
-    "name": "symfony/ai-chat",
+    "name": "flossiedev/symfony-ai-chat",
     "description": "PHP library for building chats with agents.",
     "license": "MIT",
     "type": "library",
